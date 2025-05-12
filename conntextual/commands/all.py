@@ -1,16 +1,12 @@
 # =====================================
 # generator=datazen
-# version=3.1.4
-# hash=f353fb494df76a27eff3f95cce1dd6b6
+# version=3.2.3
+# hash=839bb5a1117906e2660782d19b940f49
 # =====================================
 
 """
 A module aggregating package commands.
 """
-
-# built-in
-from typing import List as _List
-from typing import Tuple as _Tuple
 
 # third-party
 from vcorelib.args import CommandRegister as _CommandRegister
@@ -20,7 +16,7 @@ from conntextual.commands.client import add_client_cmd
 from conntextual.commands.ui import add_ui_cmd
 
 
-def commands() -> _List[_Tuple[str, str, _CommandRegister]]:
+def commands() -> list[tuple[str, str, _CommandRegister]]:
     """Get this package's commands."""
 
     return [

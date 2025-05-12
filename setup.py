@@ -1,7 +1,7 @@
 # =====================================
 # generator=datazen
-# version=3.1.4
-# hash=a13929149030d15ffef9467595f314b4
+# version=3.2.3
+# hash=ab7a1a8c9f2c61e4a441d1d5c7ea1dd8
 # =====================================
 
 """
@@ -19,7 +19,7 @@ from conntextual import DESCRIPTION, PKG_NAME, VERSION
 
 author_info = {
     "name": "Vaughn Kottler",
-    "email": "vaughnkottler@gmail.com",
+    "email": "vaughn@libre-embedded.com",
     "username": "vkottler",
 }
 pkg_info = {
@@ -28,8 +28,8 @@ pkg_info = {
     "version": VERSION,
     "description": DESCRIPTION,
     "versions": [
-        "3.11",
         "3.12",
+        "3.13",
     ],
 }
 setup(
