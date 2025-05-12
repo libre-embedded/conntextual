@@ -1,12 +1,12 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.4
-    hash=0e2fbdb8a8dcbb003fd2be2072402f40
+    version=3.2.3
+    hash=8f6fe10306e659a5cf4476cb18c593b5
     =====================================
 -->
 
-# conntextual ([1.3.5](https://pypi.org/project/conntextual/))
+# conntextual ([1.3.6](https://pypi.org/project/conntextual/))
 
 [![python](https://img.shields.io/pypi/pyversions/conntextual.svg)](https://pypi.org/project/conntextual/)
 ![Build Status](https://github.com/vkottler/conntextual/workflows/Python%20Package/badge.svg)
@@ -16,21 +16,14 @@
 
 *A network-application TUI using textual.*
 
-## Documentation
-
-### Generated
-
-* By [sphinx-apidoc](https://vkottler.github.io/python/sphinx/conntextual)
-(What's [`sphinx-apidoc`](https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html)?)
-* By [pydoc](https://vkottler.github.io/python/pydoc/conntextual.html)
-(What's [`pydoc`](https://docs.python.org/3/library/pydoc.html)?)
+([interface documentation](https://vkottler.github.io/python/conntextual))
 
 ## Python Version Support
 
 This package is tested with the following Python minor versions:
 
-* [`python3.11`](https://docs.python.org/3.11/)
 * [`python3.12`](https://docs.python.org/3.12/)
+* [`python3.13`](https://docs.python.org/3.13/)
 
 ## Platform Support
 

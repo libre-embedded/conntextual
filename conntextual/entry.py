@@ -1,7 +1,7 @@
 # =====================================
 # generator=datazen
-# version=3.1.4
-# hash=9bf8e775e93cc789e583c753b9b13bb6
+# version=3.2.3
+# hash=3d7d2eaf086f113aa6ae9bd1f0dd9962
 # =====================================
 
 """
@@ -13,7 +13,6 @@ import argparse
 import os
 from pathlib import Path
 import sys
-from typing import List
 
 # third-party
 from vcorelib.logging import logging_args
@@ -23,7 +22,7 @@ from conntextual import DESCRIPTION, VERSION
 from conntextual.app import add_app_args, entry
 
 
-def main(argv: List[str] = None) -> int:
+def main(argv: list[str] = None) -> int:
     """Program entry-point."""
 
     result = 0
