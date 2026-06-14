@@ -4,6 +4,7 @@ A module implementing a TUI application task.
 
 # built-in
 import asyncio
+from contextlib import suppress
 
 # third-party
 import psutil
@@ -88,7 +89,8 @@ class TuiDispatchTask(ArbiterTask):
 
         # Ensure that the app task is awaited.
         await self.tui.action_quit()
-        await self.tui_task
+        with suppress(LookupError):  # ??
+            await self.tui_task
 
 
 class TuiDispatch(TaskFactory[TuiDispatchTask]):

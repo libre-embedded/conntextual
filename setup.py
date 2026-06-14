@@ -1,7 +1,7 @@
 # =====================================
 # generator=datazen
-# version=3.2.3
-# hash=ab7a1a8c9f2c61e4a441d1d5c7ea1dd8
+# version=3.2.4
+# hash=7f295d486e00cd3618f6bd46370e34d7
 # =====================================
 
 """
@@ -18,9 +18,9 @@ except (ImportError, ModuleNotFoundError):
 from conntextual import DESCRIPTION, PKG_NAME, VERSION
 
 author_info = {
-    "name": "Vaughn Kottler",
+    "name": "Libre Embedded",
     "email": "vaughn@libre-embedded.com",
-    "username": "vkottler",
+    "username": "libre-embedded",
 }
 pkg_info = {
     "name": PKG_NAME,
@@ -28,8 +28,8 @@ pkg_info = {
     "version": VERSION,
     "description": DESCRIPTION,
     "versions": [
-        "3.12",
         "3.13",
+        "3.14",
     ],
 }
 setup(
