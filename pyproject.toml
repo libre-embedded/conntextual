@@ -4,21 +4,21 @@ build-backend = "setuptools.build_meta:__legacy__"
 
 [project]
 name = "conntextual"
-version = "1.3.6"
+version = "1.3.7"
 description = "A network-application TUI using textual."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 license = "MIT"
 license-files = ["LICENSE"]
 authors = [
-  {name = "Vaughn Kottler", email = "vaughn@libre-embedded.com"}
+  {name = "Libre Embedded", email = "vaughn@libre-embedded.com"}
 ]
 maintainers = [
-  {name = "Vaughn Kottler", email = "vaughn@libre-embedded.com"}
+  {name = "Libre Embedded", email = "vaughn@libre-embedded.com"}
 ]
 classifiers = [
-  "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
   "Operating System :: MacOS",
   "Operating System :: POSIX :: Linux",
   "Operating System :: Unix",

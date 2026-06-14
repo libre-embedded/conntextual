@@ -1,29 +1,31 @@
 <!--
     =====================================
     generator=datazen
-    version=3.2.3
-    hash=8f6fe10306e659a5cf4476cb18c593b5
+    version=3.2.4
+    hash=165764e6241ee2f7b39a4c9cd3828d30
     =====================================
 -->
 
-# conntextual ([1.3.6](https://pypi.org/project/conntextual/))
+# conntextual ([1.3.7](https://pypi.org/project/conntextual/))
 
 [![python](https://img.shields.io/pypi/pyversions/conntextual.svg)](https://pypi.org/project/conntextual/)
-![Build Status](https://github.com/vkottler/conntextual/workflows/Python%20Package/badge.svg)
-[![codecov](https://codecov.io/gh/vkottler/conntextual/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/vkottler/conntextual)
+![Build Status](https://github.com/libre-embedded/conntextual/workflows/Python%20Package/badge.svg)
+[![codecov](https://codecov.io/gh/libre-embedded/conntextual/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/libre-embedded/conntextual)
 ![PyPI - Status](https://img.shields.io/pypi/status/conntextual)
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/conntextual)
 
 *A network-application TUI using textual.*
 
-([interface documentation](https://vkottler.github.io/python/conntextual))
+Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
+
+([interface documentation](https://libre-embedded.github.io/python/conntextual))
 
 ## Python Version Support
 
 This package is tested with the following Python minor versions:
 
-* [`python3.12`](https://docs.python.org/3.12/)
 * [`python3.13`](https://docs.python.org/3.13/)
+* [`python3.14`](https://docs.python.org/3.14/)
 
 ## Platform Support
 
@@ -37,7 +39,7 @@ This package is tested on the following platforms:
 # Command-line Options
 
 ```
-$ ./venv3.12/bin/conntextual -h
+$ ./venv3.14/bin/conntextual -h
 
 usage: conntextual [-h] [--version] [-v] [-q] [--curses] [--no-uvloop]
                    [-C DIR]
@@ -46,19 +48,19 @@ usage: conntextual [-h] [--version] [-v] [-q] [--curses] [--no-uvloop]
 A network-application TUI using textual.
 
 options:
-  -h, --help         show this help message and exit
-  --version          show program's version number and exit
-  -v, --verbose      set to increase logging verbosity
-  -q, --quiet        set to reduce output
-  --curses           whether or not to use curses.wrapper when starting
-  --no-uvloop        whether or not to disable uvloop as event loop driver
-  -C DIR, --dir DIR  execute from a specific directory
+  -h, --help        show this help message and exit
+  --version         show program's version number and exit
+  -v, --verbose     set to increase logging verbosity
+  -q, --quiet       set to reduce output
+  --curses          whether or not to use curses.wrapper when starting
+  --no-uvloop       whether or not to disable uvloop as event loop driver
+  -C, --dir DIR     execute from a specific directory
 
 commands:
-  {client,ui,noop}   set of available commands
-    client           attempt to connect a client to a remote session
-    ui               run a user interface for runtimepy applications
-    noop             command stub (does nothing)
+  {client,ui,noop}  set of available commands
+    client          attempt to connect a client to a remote session
+    ui              run a user interface for runtimepy applications
+    noop            command stub (does nothing)
 
 ```
 

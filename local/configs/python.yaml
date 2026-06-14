@@ -1,10 +1,4 @@
 ---
-author_info:
-  name: Vaughn Kottler
-  email: vaughn@libre-embedded.com
-  username: vkottler
-versions: ["3.12", "3.13"]
-
 # Tests not working.
 # - windows-latest
 systems:
